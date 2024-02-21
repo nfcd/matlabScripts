@@ -1,5 +1,5 @@
 # matlabScripts
-A collection of Matlab scripts for fault related folding and basin analysis. The scripts are:
+A collection of Matlab scripts for fault related folding, basin analysis, and the book Structural Geology Algorithms: Vectors and Tensors (Allmendinger et al., 2012).
 
 ## Fault related folding
 
@@ -9,10 +9,9 @@ A collection of Matlab scripts for fault related folding and basin analysis. The
 - forward2D: 2D forward trishear fault propagation folding
 - forwardP3D: Pseudo 3D forward trishear fault propagation folding
 - forwardT3D: True 3D forward trishear fault propagation folding
-- trishearCircFaultIS: 2D Listric thrust. Trishear in front of thrust tip and inclined shear in backlimb
-- trishearCircFaultPar: 2D Listric thrust. Trishear in front of thrust tip and parallel shear in backlimb
-- 3DtrishearCircFaultIS: 
-
+- trishearCircFaultIS: 2D listric thrust. Trishear in front of thrust tip and inclined shear in backlimb
+- trishearCircFaultPar: 2D listric thrust. Trishear in front of thrust tip and parallel shear in backlimb
+- 3DtrishearCircFaultIS: 3D listric thrust. Trishear in front of thrust tip and inclined shear in backlimb.
 - inverseBed: 2D, optimized trishear inverse modeling of folded beds (curved lines)
 - inverseProf: 2D, optimized trishear inverse modeling of bedding intersections along a topographic profile
 - inverseP3D: Pseudo 3D, optimized trishear inverse modeling of folded beds (folded surfaces)
@@ -32,4 +31,17 @@ The optimized trishear inversions above are highly affected by local minima (Car
 - inverseT3DSA: True 3D, optimized trishear inverse modeling of folded beds (folded surfaces) using simulated annealing
 
 NOTE: You need the [Matlab Global Optimization toolbox](https://se.mathworks.com/products/global-optimization.html) to run the optimized trishear inversions with pattern search or simulated annealing.
+
+## Basin analysis:
+
+- backstrip: 1D Airy backstripping
+- flex2d: 2D flexural modeling. Continuous and broken beam of constant elastic thickness
+- flex3d: 3D flexural modeling. Continuous plate of constant elastic thickness
+- flex3dv: 3D flexural modeling. Continuous plate of variable elastic thickness (finite difference solution)
+
+## Structural Geology Algorithms:
+
+- StructuralGeologyAlgorithms: Matlab functions for the book Structural Geology Algorithms: Vectors and Tensors.
+
+Any questions, please contact me [nestor.cardozo@uis.no](nestor.cardozo@uis.no).
 
