@@ -43,5 +43,5 @@ NOTE: You need the [Matlab Global Optimization toolbox](https://se.mathworks.com
 
 - StructuralGeologyAlgorithms: Matlab functions for the book Structural Geology Algorithms: Vectors and Tensors.
 
-Any questions, please contact me [nestor.cardozo@uis.no](nestor.cardozo@uis.no).
+Any questions, please contact me [nestor.cardozo@uis.no](mailto:nestor.cardozo@uis.no).
 
